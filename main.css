@@ -1,0 +1,21 @@
+body {
+  background-color: blue; }
+
+div {
+  width: 500px;
+  height: 300px;
+  border: 1px solid green; }
+
+.item-Red {
+  background-color: #FF0000; }
+
+.item-Maroon {
+  background-color: #800000; }
+
+.item-Yellow {
+  background-color: #FFFF00; }
+
+.item-Olive {
+  background-color: #808000; }
+
+/*# sourceMappingURL=main.css.map */

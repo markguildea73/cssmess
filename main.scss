@@ -1,0 +1,27 @@
+$blue: blue;
+$green: green;
+
+
+$width:500px;
+$height:300px;
+body {
+    background-color: $blue;
+}
+div{
+    width:$width;
+    height:$height;
+    border: 1px solid $green;
+}
+
+$color:(    
+    Red:#FF0000,
+    Maroon:#800000,
+    Yellow:#FFFF00,
+    Olive:#808000);
+    
+@each $key, $value in $color{
+    .item-#{$key}{
+        background-color:$value;
+    }
+}
+
